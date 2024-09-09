@@ -13,7 +13,7 @@ const Navbar = () => {
 
             </p>
             <div class="powered-by-eleven-labs">
-                <h3 className='text-white'>Powerd by </h3>
+                <h3 className='text-white'>Powerd by Wiserbee.ca</h3>
             </div>
         </div>
     );

@@ -268,7 +268,7 @@ a{
 }
 .ConversationImge{
   margin: auto;
-  height: 300px;
+  height: 250px;
   width: 500px;
 }
 .SectionImg1{
@@ -283,11 +283,12 @@ a{
 }
 
 .SectionImg4{
-  height: 300px;
+  height: 350px;
 }
 
 .boxBorderSty{
-    background: #afaacc;
+    background: #a594f51c;
+    box-shadow: 0 100px 80px 0 #00000008, 0 64.815px 46.852px 0 #00000005, 0 38.519px 25.481px 0 #00000005, 0 20px 13px 0 #00000003, 0 8.148px 6.519px 0 #00000003, 0 1.852px 3.148px 0 #00000003;
     padding: 40px 20px;
     border-radius: 20px;
 }
