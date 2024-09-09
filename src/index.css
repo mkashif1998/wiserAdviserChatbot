@@ -189,10 +189,13 @@ a{
   flex-direction: column;
   padding-bottom: 72px;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .mt-10{
   margin-top: 100px;
+}
+.mb-10{
+  margin-bottom: 100px;
 }
 .try-earkick__container .circle-earkick {
   align-items: center;
@@ -263,10 +266,31 @@ a{
   padding: 3px;
   width: 35px;
 }
+.ConversationImge{
+  margin: auto;
+  height: 300px;
+  width: 500px;
+}
+.SectionImg1{
+  height: 400px;
+}
+.SectionImg2{
+  height: 400px;
+}
 
+.SectionImg3{
+  height: 400px;
+}
 
+.SectionImg4{
+  height: 300px;
+}
 
-
+.boxBorderSty{
+    background: #afaacc;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
 
 
 

@@ -15,7 +15,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div className="container ">
             <div className="row mt-10 mb-5">
                 <div className="col-md-6" >
                     <h1 className="fontSize64">Wiser-Adviser: Your AI-Powered Mental Wellness Companion</h1>
@@ -27,21 +27,27 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="col-md-6" data-aos="zoom-in">
-                    <img className="w-100 h-100" src={wiserbee} alt="wiserbee" />
+                    <div className="ConversationImge">
+                        <img className="w-100 h-100" src={wiserbee} alt="wiserbee" />
+                    </div>
                 </div>
             </div>
-            <div className="row mt-10">
+            <div className="row mb-10 mt-10 boxBorderSty">
                 <div className="col-md-6">
                     <h1>What is Wiser-Adviser?</h1>
                     <p className="pargrphSize">Wiser-Adviser is an AI-driven chatbot designed to provide personalized mental wellness support. Whether you're seeking emotional balance, stress relief, or guidance, Wiser-Adviser is here to listen, understand, and offer actionable insights. Future features will include enhanced learning support, helping students achieve academic success and emotional well-being.</p>
                 </div>
                 <div className="col-md-6" data-aos="fade-left">
-                    <img className="w-100 h-75" src={Picture1} alt="Picture1" />
+                    <div className="SectionImg1">
+                        <img className="w-100 h-100" src={Picture1} alt="Picture1" />
+                    </div>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mb-10 mt-10 boxBorderSty">
                 <div className="col-md-6" data-aos="flip-down">
-                    <img className="w-100 h-75" src={Picture2} alt="Picture2" />
+                    <div className="SectionImg2">
+                        <img className="w-100 h-100" src={Picture2} alt="Picture2" />
+                    </div>
                 </div>
                 <div className="col-md-6">
                     <h1>How Wiser-Adviser Supports You</h1>
@@ -58,21 +64,26 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mb-10 mt-10 boxBorderSty">
                 <div className="col-md-6">
                     <h1>How Does Wiser-Adviser Work?</h1>
                     <p className="pargrphSize">Wiser-Adviser uses advanced AI algorithms to understand your emotions through simple conversations. You’ll receive tailored advice, coping strategies, and resources for mental wellness. The chatbot learns from every interaction, ensuring personalized care and future integration with academic assistance.
                     </p>
                 </div>
                 <div className="col-md-6" data-aos="flip-left">
-                    <img className="w-100 h-75" src={Picture3} alt="Picture3" />
+                    <div className="SectionImg3">
+                        <img className="w-100 h-100" src={Picture3} alt="Picture3" />
+                    </div>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mb-10 mt-10 boxBorderSty">
                 <div className="col-md-6" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <img className="w-100 h-50" src={Picture4} alt="Picture4" />
+                    <div className="SectionImg4">
+                        <img className="w-100 h-100" src={Picture4} alt="Picture4" />
+
+                    </div>
                 </div>
                 <div className="col-md-6">
                     <h1>Why Wiser-Adviser?</h1>
@@ -81,7 +92,7 @@ const Home = () => {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 }
 
