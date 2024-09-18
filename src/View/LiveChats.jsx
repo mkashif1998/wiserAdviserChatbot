@@ -119,12 +119,12 @@ const IframeComponent = () => {
     return (
         <div style={{ height: '100vh', width: '100%' }}>
             <iframe
-                src="http://18.225.57.61:7860/"
+                src="https://ai-dev.wiserbee.ca/"
                 style={{ border: 'none', height: '100%', width: '100%' }}
                 title="External Content"
                 allowFullScreen
             />
-        </div>
+        </div>  
     );
 };
 
